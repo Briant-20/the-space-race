@@ -1,0 +1,32 @@
+h1{
+    font-size: 40px;
+    color:black;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 0;
+}
+header{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    float: right;
+}
+#page-links li{
+    float: right;
+    list-style-type: none;
+    margin: 0px 8px;
+}
+#page-links{
+margin-top: 0;
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+}
+#page-links a{
+    color: black;
+}
+#page-links a:hover{
+    border-bottom: 1px solid black;
+}
