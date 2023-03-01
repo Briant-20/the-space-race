@@ -1,32 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+}
 h1{
     font-size: 40px;
     color:black;
     text-decoration: underline;
     display: inline-block;
     margin-top: 0;
+    color: white;
 }
 header{
     margin: 0;
 }
+
 a{
     text-decoration: none;
 }
 nav{
     float: right;
 }
+
 #page-links li{
     float: right;
     list-style-type: none;
-    margin: 0px 8px;
+    margin: 10px 8px 0 8px;
 }
 #page-links{
 margin-top: 0;
 font-size: 20px;
 font-family:'Times New Roman', Times, serif;
+font-style:italic;
 }
 #page-links a{
-    color: black;
+    color: white
 }
 #page-links a:hover{
     border-bottom: 1px solid black;
+}
+
+img{
+    height: 500px;
+    width: 100%;
+    background: no-repeat center center;
 }
