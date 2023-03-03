@@ -1,34 +1,32 @@
 body{
     background-color: black;
     color: white;
-    background-image: url(images/chillest.jpg);
+    background-image: url(../images/background.jpg);
     background-size: 100%;
 }
 a h1{
     font-size: 40px;
     color:black;
     text-decoration: underline;
-    display: inline-block;
     margin: 0 0 0 180px;
     color: white;
 }
 header{
+    display: flex;
+    justify-content: space-between;
     margin: 0;
 }
 
 a{
     text-decoration: none;
 }
-nav{
-    float: right;
-}
 
 #page-links li{
-    float: right;
     list-style-type: none;
     margin: 10px 8px 0 8px;
 }
 #page-links{
+    display: flex;
     margin-top: 0;
     margin-right: 200px;
     font-size: 20px;
@@ -45,17 +43,19 @@ nav{
 #space-shuttle-img{
     height: 300px;
     width: 500px;
-    background:url(images/space-shuttle.jpg) no-repeat center center;
+    background:url(../images/space-shuttle.jpg) no-repeat center center;
     background-size:contain;
-    float: right;
     margin: 30px 118px 0 0;
     border-radius: 25%;
 }
-#information{
-    float: left;
+.information{
     margin: 75px 0 0 180px;
 }
-#information h1{
+.information h1{
     font-size: 30px;
     font-style: italic;
+}
+.body-container{
+    display: flex;
+    justify-content: space-between;
 }
