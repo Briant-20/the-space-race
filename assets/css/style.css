@@ -1,6 +1,8 @@
 body{
     background-color: black;
     color: white;
+    background-image: url(images/chillest.jpg);
+    background-size: 100%;
 }
 a h1{
     font-size: 40px;
