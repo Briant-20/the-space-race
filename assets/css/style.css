@@ -49,14 +49,31 @@ a{
     margin: 30px 118px 0 0;
     border-radius: 25%;
 }
-.information{
+.top-information{
     margin: 75px 0 0 180px;
+}
+.left-information{
+ margin: 20px 0 0 180px;
+}
+.right-information{
+    margin: 20px 180px 0 0;
 }
 .information h2{
     font-size: 30px;
     font-style: italic;
 }
-.body-container{
+.section-container{
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
+}
+#middle-section{
+margin-top: 150px;
+}
+#moon-img{
+ background:url(../images/moon.jpg) no-repeat center center;
+ height: 200px;
+ width: 200px;
+ background-size: fill;
+ border-radius: 50%;
 }
