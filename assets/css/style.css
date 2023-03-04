@@ -4,7 +4,8 @@ body{
     background-image: url(../images/background.jpg);
     background-size: 100%;
 }
-a h1{
+a h1
+{
     font-size: 40px;
     color:black;
     text-decoration: underline;
@@ -51,7 +52,7 @@ a{
 .information{
     margin: 75px 0 0 180px;
 }
-.information h1{
+.information h2{
     font-size: 30px;
     font-style: italic;
 }
