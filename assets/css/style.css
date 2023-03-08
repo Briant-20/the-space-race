@@ -114,5 +114,19 @@ form input{
 
 }
 #form-section{
+    font-size: larger;
     width: 300px;
+    margin: 40px 0 0 200px;
+    background: rgba(12, 30, 40, 50%);
+    
+}
+#sign-up-body{
+    background-color: black;
+    color: white;
+    background: url(../images/45degree-astronaut.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#sign-up-body h1{
+    background-color: black;
 }
