@@ -4,6 +4,7 @@ body{
     background: url(../images/background.jpg) center;
     background-attachment: fixed;
     background-size: 100%;
+    contain: content;
 }
 a h1{
     font-size: 40px;
@@ -38,37 +39,34 @@ a{
 }
 
 #space-shuttle-img{
-    background:url(../images/space-shuttle.jpg) no-repeat center;
+    background:url(../images/space-shuttle.jpg) no-repeat;
     background-size:contain;
     border-radius: 25%;
     height: 300px;
-    width: 500px;
+    width: 100%;
 }
 .information h2{
     font-size: 30px;
     font-style: italic;
 }
-.section-container{
-    display: flex;
-    justify-content: space-between;
-}
 #moon-img{
     background:url(../images/moon.jpg) no-repeat center;
-    background-size: fill;
     border-radius: 50%;
     height: 200px;
     width: 200px;
+    margin-left: 25%;
 }
 #vostok-rocket-img{
     background:url(../images/vostok-rocket.jpg) no-repeat center;
     background-size:contain;
     border-radius: 25%;
     height: 300px;
-    width: 500px;
+    width: 100%;
 }
 #gallery ul{
     display: flex; 
     flex-wrap: wrap; 
+    padding: 0 20px 0 20px;
 }
 #gallery ul li{
     flex-grow: 1; 
@@ -101,12 +99,14 @@ a{
     width: 60%;
     -webkit-text-stroke: .5px black;
 }
-
-.top-information{
-    width: 180%;
-}
-
 @media screen and (min-width: 950px) {
+    body{
+        contain: none;
+    }
+    .section-container{
+        display: flex;
+        justify-content: space-between;
+    }
     #sign-up-body{
         background: url(../images/45degree-astronaut.jpg) no-repeat;
         -webkit-text-stroke:0;
@@ -122,12 +122,16 @@ a{
     #right-1961{
         margin-top: 50px;
         margin-right: 280px;}
-    #vostok-rocket-img{
+    #vostok-rocket-img {
         margin: 30px 0 0 90px;
+        width: 500px;
     }
     a h1
     {
         margin: 0 0 0 180px;
+    }
+    #moon-img{
+        margin: 0;
     }
     #page-links li{
         margin: 10px 8px 0 8px;
@@ -136,16 +140,17 @@ a{
         margin-right: 250px;
     }
     #space-shuttle-img{
+        width: 500px;
         margin: 30px 118px 0 0;
     }
     .top-information{
         margin: 75px 0 0 180px;
     }
     .left-information{
-        margin: 20px 0 0 180px;
+        margin-left: 180px;
     }
     .right-information{
-        margin: 20px 180px 0 0;
+        margin-right: 180px;
     }
     .section-container{
         margin-top: 80px;
@@ -153,7 +158,8 @@ a{
     .middle-section{
         margin-top: 150px;
     }
-    .top-information{
-        width: 30%;
+    .information{
+        width: 25%;
     }
+
 }
