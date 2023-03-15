@@ -4,7 +4,6 @@ body{
     background: url(../images/background.jpg) center;
     background-attachment: fixed;
     background-size: 100%;
-    contain: content;
 }
 a h1{
     font-size: 40px;
