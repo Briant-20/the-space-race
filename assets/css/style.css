@@ -5,8 +5,7 @@ body{
     background-attachment: fixed;
     background-size: 100%;
 }
-a h1
-{
+a h1{
     font-size: 40px;
     color:black;
     text-decoration: underline;
@@ -17,7 +16,6 @@ header{
     justify-content: space-between;
     margin: 0;
 }
-
 a{
     text-decoration: none;
 }
@@ -46,12 +44,6 @@ a{
     height: 300px;
     width: 500px;
 }
-.top-information{
-}
-.left-information{
-}
-.right-information{
-}
 .information h2{
     font-size: 30px;
     font-style: italic;
@@ -59,8 +51,6 @@ a{
 .section-container{
     display: flex;
     justify-content: space-between;
-}
-.middle-section{
 }
 #moon-img{
     background:url(../images/moon.jpg) no-repeat center;
@@ -91,7 +81,6 @@ a{
     object-fit: cover; 
     vertical-align: middle;
 }
-
 #form-header{
     font-style: italic;
 }
@@ -106,14 +95,23 @@ a{
     background-attachment: fixed;
     background-size: 100%;
 }
-#sign-up-body h1{
-    background-color: black;
+#sign-up-body h2{
+    width: 60%;
+    -webkit-text-stroke: .2px black;
 }
 
-@media screen and (min-width: 1000px) {
+.top-information{
+    width: 180%;
+}
+
+@media screen and (min-width: 900px) {
     #form-section{
         width: 300px;
-        margin: 40px 0 0 200px;}
+        margin: 40px 0 0 180px;}
+    #sign-up-body h2{
+        width: 30%;
+        margin-left: 180px;
+    }
     #right-1961{
         margin-top: 50px;
         margin-right: 280px;}
@@ -147,5 +145,8 @@ a{
     }
     .middle-section{
         margin-top: 150px;
+    }
+    .top-information{
+        width: 30%;
     }
 }
