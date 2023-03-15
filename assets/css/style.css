@@ -1,7 +1,7 @@
 body{
     background-color: black;
     color: white;
-    background: url(../images/background.jpg) no-repeat;
+    background: url(../images/background.jpg) center;
     background-attachment: fixed;
     background-size: 100%;
 }
@@ -10,7 +10,6 @@ a h1
     font-size: 40px;
     color:black;
     text-decoration: underline;
-    margin: 0 0 0 180px;
     color: white;
 }
 header{
@@ -25,12 +24,10 @@ a{
 
 #page-links li{
     list-style-type: none;
-    margin: 10px 8px 0 8px;
 }
 #page-links{
     display: flex;
     margin-top: 0;
-    margin-right: 250px;
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
     font-style:italic;
@@ -43,21 +40,17 @@ a{
 }
 
 #space-shuttle-img{
+    background:url(../images/space-shuttle.jpg) no-repeat center;
+    background-size:contain;
+    border-radius: 25%;
     height: 300px;
     width: 500px;
-    background:url(../images/space-shuttle.jpg) no-repeat center center;
-    background-size:contain;
-    margin: 30px 118px 0 0;
-    border-radius: 25%;
 }
 .top-information{
-    margin: 75px 0 0 180px;
 }
 .left-information{
-    margin: 20px 0 0 180px;
 }
 .right-information{
-    margin: 20px 180px 0 0;
 }
 .information h2{
     font-size: 30px;
@@ -66,39 +59,31 @@ a{
 .section-container{
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
 }
 .middle-section{
-    margin-top: 150px;
 }
 #moon-img{
-    background:url(../images/moon.jpg) no-repeat center center;
-    height: 200px;
-    width: 200px;
+    background:url(../images/moon.jpg) no-repeat center;
     background-size: fill;
     border-radius: 50%;
+    height: 200px;
+    width: 200px;
 }
 #vostok-rocket-img{
+    background:url(../images/vostok-rocket.jpg) no-repeat center;
+    background-size:contain;
+    border-radius: 25%;
     height: 300px;
     width: 500px;
-    background:url(../images/vostok-rocket.jpg) no-repeat center center;
-    background-size:contain;
-    margin: 30px 0 0 90px;
-    border-radius: 25%;
 }
-#right-1961{
-    margin-top: 50px;
-    margin-right: 280px;
-}
-
 #gallery ul{
     display: flex; 
     flex-wrap: wrap; 
 }
 #gallery ul li{
     flex-grow: 1; 
-    height: 35vh; 
     list-style: none;
+    height: 35vh;
 }
 #gallery ul li img{
     max-height: 100%; 
@@ -110,15 +95,9 @@ a{
 #form-header{
     font-style: italic;
 }
-form input{
-
-}
 #form-section{
     font-size: larger;
-    width: 300px;
-    margin: 40px 0 0 200px;
     background: rgba(12, 30, 40, 50%);
-    
 }
 #sign-up-body{
     background-color: black;
@@ -129,4 +108,44 @@ form input{
 }
 #sign-up-body h1{
     background-color: black;
+}
+
+@media screen and (min-width: 1000px) {
+    #form-section{
+        width: 300px;
+        margin: 40px 0 0 200px;}
+    #right-1961{
+        margin-top: 50px;
+        margin-right: 280px;}
+    #vostok-rocket-img{
+        margin: 30px 0 0 90px;
+    }
+    a h1
+    {
+        margin: 0 0 0 180px;
+    }
+    #page-links li{
+        margin: 10px 8px 0 8px;
+    }
+    #page-links{
+        margin-right: 250px;
+    }
+    #space-shuttle-img{
+        margin: 30px 118px 0 0;
+    }
+    .top-information{
+        margin: 75px 0 0 180px;
+    }
+    .left-information{
+        margin: 20px 0 0 180px;
+    }
+    .right-information{
+        margin: 20px 180px 0 0;
+    }
+    .section-container{
+        margin-top: 80px;
+    }
+    .middle-section{
+        margin-top: 150px;
+    }
 }
