@@ -6,10 +6,11 @@ body{
     background-size: 100%;
 }
 a h1{
+    margin: 0;
     font-size: 40px;
-    color:black;
     text-decoration: underline;
     color: white;
+    width: 70%;
 }
 header{
     display: flex;
@@ -22,13 +23,15 @@ a{
 
 #page-links li{
     list-style-type: none;
+    margin: 13px 0 13px 0;
 }
 #page-links{
     display: flex;
-    margin-top: 0;
+    margin-top:0;
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
     font-style:italic;
+    flex-wrap: wrap;
 }
 #page-links a{
     color: white;
@@ -93,7 +96,7 @@ a{
 }
 #sign-up-body h2{
     width: 60%;
-    -webkit-text-stroke: .5px black;
+    -webkit-text-stroke: .3px black;
 }
 #sign-up-body h1{
     -webkit-text-stroke: .3px black;
@@ -111,6 +114,7 @@ input[type=text]{
 }
 #sign-up-body nav li a{
     -webkit-text-stroke: .3px black;
+    font-size: larger;
 }
 nav li a{
     margin: 5px;
