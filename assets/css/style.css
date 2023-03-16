@@ -86,8 +86,6 @@ a{
     
 }
 #sign-up-body{
-    background-color: black;
-    color: white;
     background: url(../images/45degree-astronaut.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: 100%;
@@ -97,6 +95,16 @@ a{
 #sign-up-body h2{
     width: 60%;
     -webkit-text-stroke: .5px black;
+}
+input[type=submit]{
+    background-color: blue;
+    color: white;
+    border-color: white;
+}
+input[type=text]{
+    color: white;
+    background-color: black;
+    border: inset;
 }
 @media screen and (min-width: 950px) {
     body{
