@@ -80,9 +80,7 @@ a{
     object-fit: cover; 
     vertical-align: middle;
 }
-#form-header{
-    font-style: italic;
-}
+
 #form-section{
     -webkit-text-stroke: .5px black;
     font-size: larger;
@@ -98,14 +96,12 @@ a{
     width: 60%;
     -webkit-text-stroke: .5px black;
 }
-#sign-up-body h1{
-    -webkit-text-stroke: .5px black;
-    text-decoration: underline white;
-}
 input[type=submit]{
     background-color: blue;
     color: white;
     border-color: white;
+    border-radius: 25px;
+    -webkit-text-stroke: 0;
 }
 input[type=text]{
     color: white;
@@ -126,9 +122,16 @@ nav li a{
     height: 200px;
     width: 100%;
 }
-
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
 
 @media screen and (min-width: 950px) {
+    footer{
+        margin: 0 180px 0 180px;
+    }
     .section-container{
         display: flex;
         justify-content: space-between;
