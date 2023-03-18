@@ -92,6 +92,7 @@ a{
     background-size: 100%;
     background-size: cover;
     font-size: 20px;
+    min-height: 100%;
 }
 #sign-up-body h2{
     width: 60%;
@@ -128,8 +129,19 @@ footer{
     justify-content: space-between;
     font-size: 25px;
 }
-
+#top-of-page{
+    font-size: 20px;
+    position: fixed;
+    bottom: 45px;
+    right: 20px;
+}
+#body{
+    min-height: calc(100vh - 70px);
+}
 @media screen and (min-width: 950px) {
+    #top-of-page{
+        bottom: 10px;
+    }
     footer{
         margin: 0 180px 0 180px;
     }
@@ -143,7 +155,8 @@ footer{
     }
     #form-section{
         width: 300px;
-        margin: 40px 0 0 180px;}
+        margin: 40px 0 0 180px;
+    }
     #sign-up-body h2{
         width: 30%;
         margin-left: 180px;
@@ -151,7 +164,8 @@ footer{
     }
     #right-1961{
         margin-top: 50px;
-        margin-right: 180px;}
+        margin-right: 180px;
+    }
     #vostok-rocket-img {
         margin: 30px 0 0 90px;
         width: 500px;
