@@ -89,10 +89,8 @@ a{
 #sign-up-body{
     background: url(../images/45degree-astronaut.jpg) no-repeat center;
     background-attachment: fixed;
-    background-size: 100%;
     background-size: cover;
     font-size: 20px;
-    min-height: 100%;
 }
 #sign-up-body h2{
     width: 60%;
@@ -119,7 +117,7 @@ nav li a{
 }
 #moon-landing-img{
     background:url(../images/moon-landing.jpg) no-repeat;
-    background-size:contain;
+    background-size:cover;
     border-radius: 25%;
     height: 200px;
     width: 100%;
