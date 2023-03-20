@@ -23,6 +23,10 @@ I created a link which is in a fixed position in the bottom right of the screen.
 
 The main header of the website The Space Race is a link that will bring the user back to the home page when clicked.
 
+### Development
+
+At the start of developing the website, i was not committing to GitHub correctly. After speaking with my mentor he explained to me what i was doing wrong and from then on i changed how i did it.
+
 ### Future Features
 
 I would like to add a audio button that when clicked would play background music to create a more enjoyable experience for the user.
