@@ -5,11 +5,11 @@ The Space Race is a website designed to easily provide information about the spa
 
 ## UX
 
-Throughout the design of the website I wanted to make it feel consistent so I kept most of the information in the middle of the screen as I wanted it  to be easily readable while also having images around it to make it less boring. I wanted there to be a clear level of progression so everything is placed so that you know what you have to read next.
+Throughout the design of the website I wanted to make it feel consistent so I kept most of the information in the middle of the screen as I wanted it to be easily readable while also having images around it to make it less boring. I wanted there to be a clear level of progression so everything is placed so that you know what you have to read next.
 
 ### Colour Scheme
 
-The majority of the background of the website Is black as I felt it was an appropriate design choice due to the topic being space. As a result the colour of the information is white to contrast the black and make the it easily readable.
+The majority of the website's background Is black as I felt it was an appropriate design choice due to the topic being space. As a result the colour of the information is white to contrast the black and make it easily readable.
 
 ### Typography
 
@@ -21,7 +21,7 @@ Icons source = https://fontawesome.com/
 
 I created a link which is in a fixed position in the bottom right of the screen. Clicking this link which is displayed using a icon of an up arrow which indicates its purpose, will bring the user back to the very top of the page. I feel this is a useful feature and will help users navigate the website.
 
-The main header of the website The Space Race is a link that will bring the user back to the home page whne clicked.
+The main header of the website The Space Race is a link that will bring the user back to the home page when clicked.
 
 ### Future Features
 
