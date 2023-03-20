@@ -7,7 +7,6 @@ The Space Race is a website designed to easily provide information about the spa
 
 Throughout the design of the website I wanted to make it feel consistent so I kept most of the information in the middle of the screen as I wanted it  to be easily readable while also having images around it to make it less boring. I wanted there to be a clear level of progression so everything is placed so that you know what you have to read next.
 
-
 ### Colour Scheme
 
 The majority of the background of the website Is black as I felt it was an appropriate design choice due to the topic being space. As a result the colour of the information is white to contrast the black and make the it easily readable.
@@ -33,7 +32,6 @@ I would like to add a audio button that when clicked would play background music
 - [HTML](https://en.wikipedia.org/wiki/HTML) used to display the information and images.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used to style the page and change the design.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used to more easily control the layout of the page.
-- [JavaScript](https://www.javascript.com) used to display Font Awesome icons.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used to store the code.
 - [GitHub Pages](https://pages.github.com) used for hosting the site.
@@ -85,7 +83,7 @@ You can fork this repository by using the following steps:
 
 ### Content
 
-| [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+ [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder)  README and TESTING  tool to help generate the Markdown files
 
 https://www.w3schools.com/ - help regarding coding problems.
 
@@ -93,39 +91,23 @@ https://stackoverflow.com/ - help regarding coding problems
 
 ### Media
 
-https://www.nationalgeographic.com/science/article/first-untethered-spacewalk-bruce-mccandless-astronaut-space-science - assets/images/45degree-astronaut.jpg
-
-https://www.apqc.org/blog/remembering-apollo-why-km-mission-critical-nasa -  assets/images/space-shuttle.jpg
-
-https://www.smithsonianmag.com/smithsonian-institution/how-apollo-8-saved-1968-180970991/ - assets/images/apollo8.jpg
-
-https://www.britannica.com/topic/Apollo-11 - assets/images/apollo11.jpg
-https://www.bbc.com/news/uk-wales-49036048     -  assets/images/apollomoon.jpg
-
-https://www.pexels.com/search/astronaut/   -  assets/images/astronaut.jpg
-
-https://www.pxfuel.com/en/desktop-wallpaper-osbsy   -  assets/images/background.jpg
-
-https://www.popularmechanics.com/space/rockets/a36304153/nasa-space-shuttle/  -  assets/images/launch.jpg
-
-https://www.nasa.gov/webbfirstimages - assets/images/webb.jpeg
-
-https://www.sciencenews.org/article/favorite-top-space-images-of-all-time - assets/images/webb2.jpg
-
-https://www.eso.org/public/belgium-nl/videos/moon_big_4k/    - assets/images/moon.jpg
-
-https://www.jpl.nasa.gov/edu/news/2019/5/29/celebrate-the-50th-anniversary-of-nasas-apollo-moon-landing-with-educational-resources-and-projects-for-kids/    - assets/images/moon-landing.jpg
-
-https://www.flickr.com/photos/gsfc/12867973205     - assets/images/satellite.jpg
-
-https://www.nasa.gov/feature/60-years-ago-soviets-launch-sputnik-3     -   assets/images/shuttle.png
-
-https://cordis.europa.eu/article/id/413499-cost-effective-green-and-more-efficient-propulsion-systems-for-small-satellites   -   assets/images/space-img.jpeg
-
-https://www.space.com/every-crewed-spacecraft-human-spaceflight-history.html - assets/images/vostok-rocket.jpg
-
-https://wallpapersafari.com/yuri-gagarin-wallpaper/      - assets/images/yuri.jpg
-
+-[assets/images/45degree-astronaut.jpg](https://www.nationalgeographic.com/science/article/first-untethered-spacewalk-bruce-mccandless-astronaut-space-science)
+-[assets/images/space-shuttle.jpg](https://www.apqc.org/blog/remembering-apollo-why-km-mission-critical-nasa) 
+-[assets/images/apollo8.jpg](https://www.smithsonianmag.com/smithsonian-institution/how-apollo-8-saved-1968-180970991/)
+-[assets/images/apollo11.jpg](https://www.britannica.com/topic/Apollo-11)
+-[assets/images/apollomoon.jpg](https://www.bbc.com/news/uk-wales-49036048)
+-[assets/images/astronaut.jpg](https://www.pexels.com/search/astronaut/)
+-[assets/images/background.jpg](https://www.pxfuel.com/en/desktop-wallpaper-osbsy)
+-[assets/images/launch.jpg](https://www.popularmechanics.com/space/rockets/a36304153/nasa-space-shuttle/)
+-[assets/images/webb.jpeg](https://www.nasa.gov/webbfirstimages)
+-[assets/images/webb2.jpg](https://www.sciencenews.org/article/favorite-top-space-images-of-all-time)
+-[assets/images/moon.jpg](https://www.eso.org/public/belgium-nl/videos/moon_big_4k/)
+-[assets/images/moon-landing.jpg](https://www.jpl.nasa.gov/edu/news/2019/5/29/celebrate-the-50th-anniversary-of-nasas-apollo-moon-landing-with-educational-resources-and-projects-for-kids/)
+-[assets/images/satellite.jpg](https://www.flickr.com/photos/gsfc/12867973205)
+-[assets/images/shuttle.png](https://www.nasa.gov/feature/60-years-ago-soviets-launch-sputnik-3)
+-[assets/images/space-img.jpeg](https://cordis.europa.eu/article/id/413499-cost-effective-green-and-more-efficient-propulsion-systems-for-small-satellites)
+-[assets/images/vostok-rocket.jpg](https://www.space.com/every-crewed-spacecraft-human-spaceflight-history.html)
+-[assets/images/yuri.jpg](https://wallpapersafari.com/yuri-gagarin-wallpaper/)
 
 ### Acknowledgements
 
