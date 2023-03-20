@@ -130,6 +130,8 @@ footer{
     display: flex;
     justify-content: space-around;
     font-size: 25px;
+    border-top: 2px solid;
+    width: 100%;
 }
 #top-of-page{
     font-size: 20px;
@@ -139,7 +141,7 @@ footer{
 }
 @media screen and (min-width: 950px) {
     #top-of-page{
-        bottom: 10px;
+        bottom: 25px;
     }
     .section-container{
         display: flex;
