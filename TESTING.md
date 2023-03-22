@@ -7,8 +7,11 @@
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
 ![screenshot](documentation/html-validated.png)
+
 ![screenshot](documentation/index.html.png)
+
 ![screenshot](documentation/sign-up.html.png)
+
 ![screenshot](documentation/gallery.html.png)
 
 - [index.html validated](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbriant-20.github.io%2Fthe-space-race%2Findex.html)
@@ -27,40 +30,40 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-Chrome
+- Chrome
 ![screenshot](documentation/chrome.png)
 
-Edge
+- Edge
 ![screenshot](documentation/edge.png)
 
-Firefox
+- Firefox
 ![screenshot](documentation/firefox.png)
 
 ## Responsiveness
 
-Desktop
+- Desktop
 
 ![screenshot](documentation/Desktop.png)
 
-Mobile
+- Mobile
 
 ![screenshot](documentation/mobile.png)
 
-Tablet
+- Tablet
 
 ![screenshot](documentation/tablet.png)
 
 ## Lighthouse Audit
 
-index.html
+- index.html
 
 ![screenshot](documentation/lighthouse-index.png)
 
-sign-up.html
+- sign-up.html
 
 ![screenshot](documentation/lighthouse-sign-up.png)
 
-gallery.html
+- gallery.html
 
 ![screenshot](documentation/lighthouse-gallery.png)
 
