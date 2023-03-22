@@ -17,12 +17,23 @@ With the headers of the website I made them italic to ensure they stood out and 
 
 Icons source = https://fontawesome.com/
 
+![screenshot](documentation/headers.png)
+
 ### Existing Features
 
 I created a link which is in a fixed position in the bottom right of the screen. Clicking this link which is displayed using a icon of an up arrow which indicates its purpose, will bring the user back to the very top of the page. I feel this is a useful feature and will help users navigate the website.
 
 The main header of the website The Space Race is a link that will bring the user back to the home page when clicked.
 
+The nav bar contains all the links to the other parts of the webpage.
+
+The footer contains links to external webpages such as YouTube.
+
+The sign up page allows users to enter their name and email address.
+
+The gallery page shows users a display of images.
+
+The home page displays information about the space race to the user.
 ### Development
 
 At the start of developing the website, i was not committing to GitHub correctly. After speaking with my mentor he explained to me what i was doing wrong and from then on i changed how i did it.
@@ -89,29 +100,29 @@ You can fork this repository by using the following steps:
 
  [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder)  README and TESTING  tool to help generate the Markdown files
 
-https://www.w3schools.com/ - help regarding coding problems.
+[W3schools](https://www.w3schools.com/)  help regarding coding problems.
 
-https://stackoverflow.com/ - help regarding coding problems
+[Stackoverflow](https://stackoverflow.com/)  help regarding coding problems
 
 ### Media
 
--[assets/images/45degree-astronaut.jpg](https://www.nationalgeographic.com/science/article/first-untethered-spacewalk-bruce-mccandless-astronaut-space-science)
--[assets/images/space-shuttle.jpg](https://www.apqc.org/blog/remembering-apollo-why-km-mission-critical-nasa) 
--[assets/images/apollo8.jpg](https://www.smithsonianmag.com/smithsonian-institution/how-apollo-8-saved-1968-180970991/)
--[assets/images/apollo11.jpg](https://www.britannica.com/topic/Apollo-11)
--[assets/images/apollomoon.jpg](https://www.bbc.com/news/uk-wales-49036048)
--[assets/images/astronaut.jpg](https://www.pexels.com/search/astronaut/)
--[assets/images/background.jpg](https://www.pxfuel.com/en/desktop-wallpaper-osbsy)
--[assets/images/launch.jpg](https://www.popularmechanics.com/space/rockets/a36304153/nasa-space-shuttle/)
--[assets/images/webb.jpeg](https://www.nasa.gov/webbfirstimages)
--[assets/images/webb2.jpg](https://www.sciencenews.org/article/favorite-top-space-images-of-all-time)
--[assets/images/moon.jpg](https://www.eso.org/public/belgium-nl/videos/moon_big_4k/)
--[assets/images/moon-landing.jpg](https://www.jpl.nasa.gov/edu/news/2019/5/29/celebrate-the-50th-anniversary-of-nasas-apollo-moon-landing-with-educational-resources-and-projects-for-kids/)
--[assets/images/satellite.jpg](https://www.flickr.com/photos/gsfc/12867973205)
--[assets/images/shuttle.png](https://www.nasa.gov/feature/60-years-ago-soviets-launch-sputnik-3)
--[assets/images/space-img.jpeg](https://cordis.europa.eu/article/id/413499-cost-effective-green-and-more-efficient-propulsion-systems-for-small-satellites)
--[assets/images/vostok-rocket.jpg](https://www.space.com/every-crewed-spacecraft-human-spaceflight-history.html)
--[assets/images/yuri.jpg](https://wallpapersafari.com/yuri-gagarin-wallpaper/)
+- [assets/images/45degree-astronaut.jpg](https://www.nationalgeographic.com/science/article/first-untethered-spacewalk-bruce-mccandless-astronaut-space-science)
+- [assets/images/space-shuttle.jpg](https://www.apqc.org/blog/remembering-apollo-why-km-mission-critical-nasa) 
+- [assets/images/apollo8.jpg](https://www.smithsonianmag.com/smithsonian-institution/how-apollo-8-saved-1968-180970991/)
+- [assets/images/apollo11.jpg](https://www.britannica.com/topic/Apollo-11)
+- [assets/images/apollomoon.jpg](https://www.bbc.com/news/uk-wales-49036048)
+- [assets/images/astronaut.jpg](https://www.pexels.com/search/astronaut/)
+- [assets/images/background.jpg](https://www.pxfuel.com/en/desktop-wallpaper-osbsy)
+- [assets/images/launch.jpg](https://www.popularmechanics.com/space/rockets/a36304153/nasa-space-shuttle/)
+- [assets/images/webb.jpeg](https://www.nasa.gov/webbfirstimages)
+- [assets/images/webb2.jpg](https://www.sciencenews.org/article/favorite-top-space-images-of-all-time)
+- [assets/images/moon.jpg](https://www.eso.org/public/belgium-nl/videos/moon_big_4k/)
+- [assets/images/moon-landing.jpg](https://www.jpl.nasa.gov/edu/news/2019/5/29/celebrate-the-50th-anniversary-of-nasas-apollo-moon-landing-with-educational-resources-and-projects-for-kids/)
+- [assets/images/satellite.jpg](https://www.flickr.com/photos/gsfc/12867973205)
+- [assets/images/shuttle.png](https://www.nasa.gov/feature/60-years-ago-soviets-launch-sputnik-3)
+- [assets/images/space-img.jpeg](https://cordis.europa.eu/article/id/413499-cost-effective-green-and-more-efficient-propulsion-systems-for-small-satellites)
+- [assets/images/vostok-rocket.jpg](https://www.space.com/every-crewed-spacecraft-human-spaceflight-history.html)
+- [assets/images/yuri.jpg](https://wallpapersafari.com/yuri-gagarin-wallpaper/)
 
 ### Acknowledgements
 
