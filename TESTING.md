@@ -49,3 +49,18 @@ Mobile
 Tablet
 
 ![screenshot](documentation/tablet.png)
+
+## Lighthouse Audit
+
+index.html
+
+![screenshot](documentation/lighthouse-index.png)
+
+sign-up.html
+
+![screenshot](documentation/lighthouse-sign-up.png)
+
+gallery.html
+
+![screenshot](documentation/lighthouse-gallery.png)
+
