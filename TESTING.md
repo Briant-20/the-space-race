@@ -9,7 +9,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 ![screenshot](documentation/html-validated.png)
 
 - https://validator.w3.org/nu/?doc=https%3A%2F%2Fbriant-20.github.io%2Fthe-space-race%2Findex.html
-- 
+- https://validator.w3.org/nu/?doc=https%3A%2F%2Fbriant-20.github.io%2Fthe-space-race%2Fsign-up.html
 - 
 
 ### CSS
