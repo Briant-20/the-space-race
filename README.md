@@ -68,6 +68,10 @@ I would like to add a audio button that when clicked would play background music
 - [GitHub Pages](https://pages.github.com) used for hosting the site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 
+## Testing
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
 ## Deployment
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
