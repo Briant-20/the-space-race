@@ -38,3 +38,14 @@ Firefox
 
 ## Responsiveness
 
+Desktop
+
+![screenshot](documentation/Desktop.png)
+
+Mobile
+
+![screenshot](documentation/mobile.png)
+
+Tablet
+
+![screenshot](documentation/tablet.png)
