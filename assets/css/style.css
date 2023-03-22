@@ -1,13 +1,17 @@
 html {
     scroll-behavior: smooth;
 }
+
 html, body { 
     height: 100%;
 }
+
+/* To keep the footer at the bottom of the page */
 body > footer{
   position: sticky;
   top: 100vh;
 }
+
 body{
     background-color: black;
     color: white;
@@ -15,6 +19,7 @@ body{
     background-attachment: fixed;
     background-size: 100%;
 }
+
 a h1{
     margin: 0;
     font-size: 40px;
@@ -22,20 +27,29 @@ a h1{
     color: white;
     width: 70%;
 }
+
 header{
     display: flex;
     justify-content: space-between;
     margin: 0;
 }
+
 a{
     text-decoration: none;
     color: white;
+}
+
+/* Navigation links */
+nav li a{
+    margin: 5px;
+    font-size: 25px;
 }
 
 #page-links li{
     list-style-type: none;
     margin: 13px 0 13px 0;
 }
+
 #page-links{
     display: flex;
     margin-top:0;
@@ -43,13 +57,21 @@ a{
     font-style:italic;
     flex-wrap: wrap;
 }
+
 #page-links a{
     color: white;
 }
+
 #page-links a:hover{
     border-bottom: 1px solid white;
 }
 
+.information h2{
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* Home page images */
 #space-shuttle-img{
     background:url(../images/space-shuttle.jpg) no-repeat;
     background-size:contain;
@@ -57,10 +79,7 @@ a{
     height: 200px;
     width: 100%;
 }
-.information h2{
-    font-size: 30px;
-    font-style: italic;
-}
+
 #moon-img{
     background:url(../images/moon.jpg) no-repeat center;
     border-radius: 50%;
@@ -68,6 +87,7 @@ a{
     width: 200px;
     margin-left: 25%;
 }
+
 #vostok-rocket-img{
     background:url(../images/vostok-rocket.jpg) no-repeat center;
     background-size:contain;
@@ -75,50 +95,7 @@ a{
     height: 300px;
     width: 100%;
 }
-#gallery ul{
-    display: flex; 
-    flex-wrap: wrap; 
-    padding: 0 20px 0 20px;
-}
-#gallery ul li{
-    flex-grow: 1; 
-    list-style: none;
-    height: 35vh;
-}
-#gallery ul li img{
-    max-height: 100%; 
-    min-width: 100%; 
-    object-fit: cover; 
-    vertical-align: middle;
-}
 
-#form-section form{
-    font-size: larger;
-}
-#sign-up-body{
-    background: url(../images/45degree-astronaut.jpg) no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
-    font-size: 20px;
-}
-#sign-up-body h2{
-    width: 60%;
-}
-input[type=submit]{
-    background-color: blue;
-    color: white;
-    border-color: white;
-    border-radius: 25px;
-}
-input{
-    color: white;
-    background-color: black;
-    border: inset;
-}
-nav li a{
-    margin: 5px;
-    font-size: 25px;
-}
 #moon-landing-img{
     background:url(../images/moon-landing.jpg) no-repeat;
     background-size:cover;
@@ -126,6 +103,55 @@ nav li a{
     height: 200px;
     width: 100%;
 }
+
+/* Displays the gallery page images in columns*/
+#gallery ul{
+    display: flex; 
+    flex-wrap: wrap; 
+    padding: 0 20px 0 20px;
+}
+
+#gallery ul li{
+    flex-grow: 1; 
+    list-style: none;
+    height: 35vh;
+}
+
+#gallery ul li img{
+    max-height: 100%; 
+    min-width: 100%; 
+    object-fit: cover; 
+    vertical-align: middle;
+}
+
+#sign-up-body{
+    background: url(../images/45degree-astronaut.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 20px;
+}
+
+#sign-up-body h2{
+    width: 60%;
+}
+
+#form-section form{
+    font-size: larger;
+}
+
+input[type=submit]{
+    background-color: blue;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+}
+
+input{
+    color: white;
+    background-color: black;
+    border: inset;
+}
+
 footer{
     display: flex;
     justify-content: space-around;
@@ -134,77 +160,98 @@ footer{
     width: 100%;
     margin-top: 1em;
 }
+
 #top-of-page{
     font-size: 20px;
     position: fixed;
     bottom: 45px;
     right: 20px;
 }
+
+/* For devices with a width higher than 950px */
 @media screen and (min-width: 950px) {
     #top-of-page{
         bottom: 25px;
     }
+
     .section-container{
         display: flex;
         justify-content: space-between;
     }
+
     #sign-up-body{
         background: url(../images/45degree-astronaut.jpg) no-repeat;
     }
+
     #form-section form{
         width: 300px;
         margin: 40px 0 0 180px;
     }
+
     #sign-up-body h2{
         width: 30%;
         margin-left: 180px;
     }
+
     #right-1961{
         margin-top: 50px;
         margin-right: 180px;
     }
+
     #vostok-rocket-img {
         margin: 30px 0 0 90px;
         width: 500px;
     }
+
     a h1
     {
         margin: 0 0 0 180px;
     }
+
     #moon-img{
         margin: 0;
     }
+
     #page-links li{
         margin: 10px 8px 0 8px;
     }
+
     #page-links{
         margin-right: 250px;
     }
+
     #space-shuttle-img{
         height:300px;
         width: 500px;
         margin: 30px 118px 0 0;
     }
+
     #moon-landing-img{
         height:300px;
         width: 500px;
         margin: 30px 118px 0 0;
     }
+
     .top-information{
         margin: 75px 0 0 180px;
     }
+
     .left-information{
         margin-left: 180px;
     }
+
     .right-information{
         margin-right: 180px;
     }
+
     .section-container{
         margin-top: 80px;
     }
+
     .middle-section{
         margin-top: 150px;
     }
+
     .information{
         width: 25%;
         margin-top: 35px;
