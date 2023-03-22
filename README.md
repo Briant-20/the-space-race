@@ -23,17 +23,32 @@ Icons source = https://fontawesome.com/
 
 I created a link which is in a fixed position in the bottom right of the screen. Clicking this link which is displayed using a icon of an up arrow which indicates its purpose, will bring the user back to the very top of the page. I feel this is a useful feature and will help users navigate the website.
 
+![screenshot](documentation/top-of-page.png)
+
 The main header of the website The Space Race is a link that will bring the user back to the home page when clicked.
+
+![screenshot](documentation/main-header.png)
 
 The nav bar contains all the links to the other parts of the webpage.
 
+![screenshot](documentation/nav-bar.png)
+
 The footer contains links to external webpages such as YouTube.
+
+![screenshot](documentation/footer.png)
 
 The sign up page allows users to enter their name and email address.
 
+![screenshot](documentation/sign-up-page.png)
+
 The gallery page shows users a display of images.
 
+![screenshot](documentation/gallery.png)
+
 The home page displays information about the space race to the user.
+
+![screenshot](documentation/home-page.png)
+
 ### Development
 
 At the start of developing the website, i was not committing to GitHub correctly. After speaking with my mentor he explained to me what i was doing wrong and from then on i changed how i did it.
