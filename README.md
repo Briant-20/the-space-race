@@ -33,11 +33,11 @@ The nav bar contains all the links to the other parts of the webpage.
 
 ![screenshot](documentation/nav-bar.png)
 
-The footer contains links to external webpages such as YouTube.
+The footer contains links to external web pages such as YouTube.
 
 ![screenshot](documentation/footer.png)
 
-The sign up page allows users to enter their name and email address.
+The sign-up page allows users to enter their name and email address.
 
 ![screenshot](documentation/sign-up-page.png)
 
