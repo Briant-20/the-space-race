@@ -38,6 +38,7 @@ The home page displays information about the space race to the user.
 
 At the start of developing the website, i was not committing to GitHub correctly. After speaking with my mentor he explained to me what i was doing wrong and from then on i changed how i did it.
 
+![screenshot](documentation/bad-commits.png)
 ### Future Features
 
 I would like to add a audio button that when clicked would play background music to create a more enjoyable experience for the user.
