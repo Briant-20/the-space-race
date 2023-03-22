@@ -92,7 +92,7 @@ a{
     vertical-align: middle;
 }
 
-#form-section{
+#form-section form{
     font-size: larger;
 }
 #sign-up-body{
@@ -151,7 +151,7 @@ footer{
     #sign-up-body{
         background: url(../images/45degree-astronaut.jpg) no-repeat;
     }
-    #form-section{
+    #form-section form{
         width: 300px;
         margin: 40px 0 0 180px;
     }
