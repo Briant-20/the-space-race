@@ -43,7 +43,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 - Desktop
 
-![screenshot](documentation/Desktop.png)
+![screenshot](documentation/desktop.png)
 
 - Mobile
 
