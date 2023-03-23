@@ -1,5 +1,5 @@
 # the-space-race
-The Space Race is a website designed to easily provide information about the space race between the US and the USSR beginning in 1955. Anyone who has an interest in space or history should visit the website if they want to learn more. The information on the website is condensed and concise, it provides factual information in an easy to read manner with minimal fluff.
+The Space Race is a website designed to easily provide information about the space race between the US and the USSR beginning in 1955. Anyone who has an interest in space or history should visit the website if they want to learn more. The information on the website is condensed and concise, it provides factual information in an easy-to-read manner with minimal fluff.
 
 ![screenshot](documentation/mockup.png)
 
@@ -9,11 +9,11 @@ Throughout the design of the website I wanted to make it feel consistent so I ke
 
 ### Colour Scheme
 
-The majority of the website's background Is black as I felt it was an appropriate design choice due to the topic being space. As a result the colour of the information is white to contrast the black and make it easily readable.
+The majority of the website's background Is black as I felt it was an appropriate design choice due to the topic being space. As a result, the color of the information is white to contrast with black and make it easily readable.
 
 ### Typography
 
-With the headers of the website I made them italic to ensure they stood out and showed their importance. I used icons from Font Awesome on the main header of the page to make it a bit more interesting and to stand out. I also used them in the footer for the links to show what clicking them would do e.g.(Clicking the youtube icon brings you to youtube) and for a link which brings you to the top of the page.
+With the headers of the website, I made them italic to ensure they stood out and showed their importance. I used icons from Font Awesome on the main header of the page to make it a bit more interesting and to stand out. I also used them in the footer for the links to show what clicking them would do e.g.(Clicking the youtube icon brings you to youtube) and a link that brings you to the top of the page.
 
 Icons source = https://fontawesome.com/
 
@@ -21,7 +21,7 @@ Icons source = https://fontawesome.com/
 
 ### Existing Features
 
-I created a link which is in a fixed position in the bottom right of the screen. Clicking this link which is displayed using a icon of an up arrow which indicates its purpose, will bring the user back to the very top of the page. I feel this is a useful feature and will help users navigate the website.
+I created a link that is in a fixed position at the bottom right of the screen. Clicking this link which is displayed using an icon of an up arrow that indicates its purpose, will bring the user back to the very top of the page. I feel this is a useful feature and will help users navigate the website.
 
 ![screenshot](documentation/top-of-page.png)
 
@@ -51,22 +51,22 @@ The home page displays information about the space race to the user.
 
 ### Development
 
-At the start of developing the website, i was not committing to GitHub correctly. After speaking with my mentor he explained to me what i was doing wrong and from then on i changed how i did it.
+At the start of developing the website, I was not committing to GitHub correctly. After speaking with my mentor he explained to me what I was doing wrong and from then on I changed how I did it.
 
 ![screenshot](documentation/bad-commits.png)
 ### Future Features
 
-I would like to add a audio button that when clicked would play background music to create a more enjoyable experience for the user.
+I would like to add an audio button that when clicked would play background music to create a more enjoyable experience for the user.
 
 ## Tools & Technologies Used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used to display the information and images.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used to style the page and change the design.
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used to more easily control the layout of the page.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) is used to easily control the layout of the page.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used to store the code.
 - [GitHub Pages](https://pages.github.com) used for hosting the site.
-- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
+- [Gitpod](https://gitpod.io) is used as a cloud-based IDE for development.
 
 ## Testing
 
@@ -91,11 +91,11 @@ You can clone the repository by following these steps:
 
 1. Go to the [GitHub repository](https://github.com/Briant-20/the-space-race.git) 
 2. Locate the Code button above the list of files and click it 
-3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI, and click the copy button to copy the URL to your clipboard
 4. Open Git Bash or Terminal
 5. Change the current working directory to the one where you want the cloned directory
 6. In your IDE Terminal, type the following command to clone my repository:
-	- `git clone https://github.com/Briant-20/the-space-race.git.git`
+    - `git clone https://github.com/Briant-20/the-space-race.git.git`
 7. Press Enter to create your local clone.
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
@@ -111,7 +111,7 @@ By forking the GitHub Repository, we make a copy of the original repository on o
 You can fork this repository by using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Briant-20/the-space-race.git)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+2. At the top of the Repository (not the top of the page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 ## Credits
@@ -148,6 +148,4 @@ You can fork this repository by using the following steps:
 
 - I would like to thank my Code Institute mentor, Tim Nelson for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
-- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-
-
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self-doubt and imposter syndrome.
