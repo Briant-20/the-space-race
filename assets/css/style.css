@@ -125,7 +125,7 @@ nav li a{
 }
 
 #sign-up-body{
-    background: url(../images/45degree-astronaut.jpg) no-repeat center;
+    background: url(../images/45degree-astronaut.jpg)no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     font-size: 20px;
@@ -178,11 +178,12 @@ footer{
         display: flex;
         justify-content: space-between;
     }
-
     #sign-up-body{
         background: url(../images/45degree-astronaut.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
-
+    
     #form-section form{
         width: 300px;
         margin: 40px 0 0 180px;
