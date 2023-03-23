@@ -67,3 +67,12 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 ![screenshot](documentation/lighthouse-gallery.png)
 
+## Bugs
+
+## Fixed Bugs
+
+I had some trouble getting the gallery page to go into columns and to adjust to the screen size properly so I put all the images into a list so I could style them the way I wanted to.
+
+## Unfixed Bugs
+
+There are no remaining bugs that I am aware of.
